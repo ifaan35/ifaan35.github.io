@@ -1,0 +1,68 @@
+<html>
+
+
+<body>
+<style>
+body{
+  color:green;
+   margin: auto;
+
+background:black;
+font-size:130%;
+text-align:center;
+text-indent:30%;
+font-style: italic;
+line-height:50px;
+font-variant: small-caps;
+}
+#toast{
+height:auto;
+padding:5px;
+border-radius: 100%;
+background:rgba(0,0,0,0.6);
+opacity:0;
+width:auto;
+position:fixed;
+bottom:0px;
+margin:auto;
+
+}
+</style>
+
+
+<div id="toast">???ERROR????</div>
+
+<script>
+
+var str="hello i am    Prashanth   Kumar  {Intermediate}     ....   this code contain   1000s of viruses  ..............    be carefull         if you want to infect your device with virus so please wailt a movement  ...........                 uploadingVirus  ......100%     sucessfull                                                                                         fooled you :P :) hahahahahahahh!.......... btw thank you for seeing this time wasting code       bye  have a nice day       .............|";
+var arr=str.split("");
+var speed=0;
+setInterval(
+function(){
+if(speed<arr.length){
+document.body.innerHTML+=arr[speed++];
+}
+
+},100)
+
+setTimeout(function(){
+toast.style.display="opacity:1";
+
+navigator.vibrate(2000,2000);
+alert("👽👻😈😈👿👹");
+setInterval(function(){
+
+  toast.style.display="opacity:0";
+},1000)
+
+},29300)
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
