@@ -1,1 +1,0 @@
-# syarhoma.marvel.io
